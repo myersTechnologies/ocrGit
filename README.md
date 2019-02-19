@@ -5,6 +5,7 @@ Voici le fichier README.txt qui explique cet Exercice.
 
 Ici je vais vous montrer comment enregitrer un fichier dans SharedPreferences avavec Java.
 
+//Voici le code
 package com.exemple.app
 
 public class MainActivity extends AppCompatActiviy{
@@ -27,5 +28,4 @@ private String NAME = "firstname";
 	 NAME = preferences.getString(PREF_KEY_NAME_1, null);
 
 	}
-
 }
