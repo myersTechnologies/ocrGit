@@ -29,3 +29,15 @@ Ici je vais vous montrer comment enregitrer un fichier dans SharedPreferences av
 
 		}
 	}
+
+Now in this new Commit i'm showing you how to save to SharedPreferences
+
+	//Voici le code (vous pouvez l'utiliser dans une fonction "onSave" par exemple")
+
+	public void onSave(){
+
+	//save user name
+
+	preferences.edit().putString(PREF_KEY_NAME_1, NAME).apply();
+
+	}
